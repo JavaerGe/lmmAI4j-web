@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+# temp dir for processed files
+lmmAI4j:
+  upload-dir: ${java.io.tmpdir}/lmmai4j-web/uploads
